@@ -42,8 +42,8 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
   </script>
   ```
 ## demo
-<img src="donate_sider.png"/>
-<img src="doante_large.png"/>
+<img src="./donate_sider.png"/>
+<img src="./doante_large.png"/>
 ## project
 - [ ] 扩展sider主题、样式
 - [ ] 打包封装
