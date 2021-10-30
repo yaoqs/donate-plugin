@@ -1,7 +1,9 @@
 # donate-plugin
 Donate &amp; Reward 大吉大利，今晚吃鸡
 ## code
-在html中插入以下代码，并将js文件引入html的head标签中即可
+在html中插入以下代码，并将js文件引入html的head标签中即可.
+
+当鼠标移动到侧边栏时将弹框出现
 ```js
 <script type="text/javascript" src="js/zanzhu_yaoqs.js"></script>
 /*!
@@ -42,8 +44,13 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
   </script>
   ```
 ## demo
-<img src="./donate_sider.png"/>
-<img src="./doante_large.png"/>
+- donate_sider
+<img src="https://yaoqs.github.io/donate-plugin/donate_sider.png"/>
+
+- doante_large
+<img src="https://yaoqs.github.io/donate-plugin/doante_large.png"/>
+
+
 ## project
 - [ ] 扩展sider主题、样式
 - [ ] 打包封装
