@@ -1,5 +1,7 @@
 # donate-plugin
 Donate &amp; Reward 大吉大利，今晚吃鸡
+
+<image src="https://yaoqs.github.io/donate-plugin/kw7q5d.jpg" width="200px"/>
 ## code
 在html中插入以下代码，并将js文件引入html的head标签中即可.
 
@@ -47,8 +49,8 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
 - donate_sider
 <img src="https://yaoqs.github.io/donate-plugin/donate_sider.png"/>
 
-- doante_large
-<img src="https://yaoqs.github.io/donate-plugin/doante_large.png"/>
+- donate_large
+<img src="https://yaoqs.github.io/donate-plugin/donate_large.png"/>
 
 
 ## project
