@@ -1,6 +1,6 @@
 # donate-plugin
 Donate &amp; Reward 大吉大利，今晚吃鸡
-
+## code
 在html中插入以下代码，并将js文件引入html的head标签中即可
 ```js
 <script type="text/javascript" src="js/zanzhu_yaoqs.js"></script>
@@ -41,3 +41,9 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
   
   </script>
   ```
+## demo
+<img src="donate_sider.png"/>
+<img src="doante_large.png"/>
+## project
+- [ ] 扩展sider主题、样式
+- [ ] 打包封装
