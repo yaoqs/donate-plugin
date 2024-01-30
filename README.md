@@ -7,7 +7,7 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
 
 当鼠标移动到侧边栏时将弹框出现
 ```js
-<script type="text/javascript" src="/js/zanzhu_yaoqs.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yaoqs/donate-plugin/zanzhu_yaoqs.min.js"></script>
 /*!
 * zanzhu_yaoqs JavaScript Library v1.0.0
 * http://github.com/yaoqs
@@ -16,34 +16,35 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
 * Released under the MIT license
 *
 * 3rd Party Library:
-* 1.Jquery
-* 2.Jquery.qrcode
+* 1.jquery
+* 2.jquery.qrcode
 *
 * Date: 2021-10-01
 */
 <script>
- 
-      $(function(){
-          new Rewardtip(
-              {
-                  "tiptext":"谢谢支持/Thanks...",
-                  "more":"./donate.html",
-                  "list":[
-                      {name:"微信收款码",qrimg:"/images/微信收款码.png"},
-                      {name:"微信打赏码",qrimg:"/images/微信打赏码.png"},
-                      {name:"支付宝收款码",qrimg:"/images/支付宝收款码.jpg"},
-                      {name:"支付宝红包码",qrimg:"/images/支付宝红包码.jpg"}
-                  ],
-                  "link":[
-                      {name:"paypal",desc:"paypal.me/LordYao",link:"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=243292490@qq.com&currency_code=USD&amount=1&return=http://yaoqs.github.com/about&item_name=LordYao%27s%20Blog&undefined_quantity=1"}
-                  ]/*,
-                  fn:(function(){
-                      return alert("解放思想，发展生产力");
-                  })()*/
-              });
-      })
-  
-  </script>
+    $(function () {
+        new Rewardtip(
+            {
+                "tiptext": "谢谢支持/Thanks...",
+                "tipimg": { img: "/images/ali.gif", width: "50px", height: "50px" },  //可选
+                "more": "/Donate",
+                "tipshow": "<img src='/images/ali.gif'/>",                     //可选
+                "list": [
+                    { name: "微信收款码", qrimg: "/images/微信收款码.png" },
+                    { name: "微信打赏码", qrimg: "/images/微信打赏码.png" },
+                    { name: "支付宝收款码", qrimg: "/images/支付宝收款码.jpg" },
+                    { name: "支付宝红包码", qrimg: "/images/支付宝红包码.jpg" }
+                ],
+                "link": [
+                    { name: "paypal", desc: "paypal.me/LordYao", link: "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=243292490@qq.com&currency_code=USD&amount=1&return=http://yaoqs.github.com/about&item_name=LordYao%27s%20Blog&undefined_quantity=1" }
+                ]/*,
+                    fn:(function(){
+                        return alert("解放思想，发展生产力");
+                    })()*/
+            });
+    })
+
+</script>
   ```
 ## demo
 - donate_sider
