@@ -1,11 +1,15 @@
 # donate-plugin
+
 Donate &amp; Reward 大吉大利，今晚吃鸡
 
 <image src="https://yaoqs.github.io/donate-plugin/kw7q5d.jpg" width="200px"/>
+
 ## code
+
 在html中插入以下代码，并将js文件引入html的head标签中即可.
 
 当鼠标移动到侧边栏时将弹框出现
+
 ```js
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yaoqs/donate-plugin/zanzhu_yaoqs.min.js"></script>
 /*!
@@ -18,6 +22,8 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
 * 3rd Party Library:
 * 1.jquery
 * 2.jquery.qrcode
+* or
+* 3.d3js
 *
 * Date: 2021-10-01
 */
@@ -45,22 +51,25 @@ Donate &amp; Reward 大吉大利，今晚吃鸡
     })
 
 </script>
-  ```
+```
+
 ## demo
+
 - donate_sider
 <img src="https://yaoqs.github.io/donate-plugin/donate_sider.png"/>
 
 - donate_large
 <img src="https://yaoqs.github.io/donate-plugin/donate_large.png"/>
 
-
 ## project
+
 - [ ] 扩展sider主题、样式
 - [ ] 打包封装
+- [ ] 使用d3js封装代替jQuery（可选）
 
 ## License 许可证 & Copyright
 
-- 版权声明：Copyright © 2019-2023 要庆生. All rights reserved. 未经本人同意请勿转载。经本人同意后转载时请注明出处。
--  [![GitHub license](https://badgen.net/github/license/yaoqs/donate-plugin)](https://github.com/yaoqs/donate-plugin/blob/master/LICENSE) [![GitHub license](https://img.shields.io/github/license/yaoqs/donate-plugin.svg)](https://github.com/yaoqs/donate-plugin/blob/master/LICENSE)
+- 版权声明：Copyright © 2019-2024 要庆生. All rights reserved. 未经本人同意请勿转载。经本人同意后转载时请注明出处。
+- [![GitHub license](https://badgen.net/github/license/yaoqs/donate-plugin)](https://github.com/yaoqs/donate-plugin/blob/master/LICENSE) [![GitHub license](https://img.shields.io/github/license/yaoqs/donate-plugin.svg)](https://github.com/yaoqs/donate-plugin/blob/master/LICENSE)
 知识共享许可协议 版权声明：署名，允许他人基于本文进行创作，且必须基于与原先许可协议相同的许可协议分发本文([Creative Commons](http://creativecommons.org/licenses/by-sa/4.0/ ))
 - 业余时间所作，难免有不足及错漏之处，敬请包涵指正，可通过github仓库在线留言或Email <350788415@qq.com>告知；如需补充其他相关专业信息，亦可邮件通知或github仓库在线留言；同时欢迎各位热心人士star、fork或共同参与维护仓库
